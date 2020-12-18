@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto&display=swap" rel="stylesheet">
+  
+  <!--JQUERY CDN-->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="(max-width: 768px)" href="css/mobile.css">
+  
+  <title>Pass The Message</title>
+
+</head>
+<body>
+  <h1 id="title-heading" class="headings">Pass The Message</h1>
+  <hr>
+  <!-- App Container-->
+  <div class="container">
+    <!--Enter Message-->
+    <section id="enterMsg">
+      <h2 class="headings">Send a Message:</h2>
+      <form action="#">
+        <label for="messageInputField">Enter a message in the field below and it will be shown in the display section below!</label>
+        <input id="messageInputField" type="text" name="message" placeholder="Enter Message:">
+      </form>
+      <!-- button -->
+      <button id="submitButton" type="button">Send Message</button>
+    </section>
+
+    <!--Last Message sent-->
+    <section id="sent-message">
+      <h2 class="headings">Last Sent Message Display:</h2>
+      <div id="Msg"></div>
+    </section>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--LOCAL JavaScript-->
+  <script type="text/javascript" src="javascript/passTheMessage.js"></script>
+</body>
+</html>

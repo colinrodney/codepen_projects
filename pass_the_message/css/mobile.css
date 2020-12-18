@@ -1,0 +1,58 @@
+*{
+  font-size: 24px;
+}
+
+.container{
+	padding: 10% 0%;
+}
+
+h1#title-heading{
+	padding: 1%;
+}
+
+/* input */
+.container input{
+  display: block;
+	margin-top: 10%;
+	width: 100%;
+	padding: 4%;
+	border-radius: 10px;
+}
+
+/* button */
+.container button{
+	display: block;
+  margin: 10% auto;
+}
+
+/* Device Orientation: Landscape (max-height: 576px */
+@media(max-height: 576px){
+	.container{
+		height: 100%;
+	}
+
+	.container input{
+		margin-top: 3%;
+		width: 80%;
+	}
+
+	.container button{
+	display: block;
+	margin: 3% auto;
+	}
+
+	#enterMsg{
+		margin-top: -8%;
+	}
+
+	#sent-message{
+	border: 1px dashed black;
+	border-radius: 10px;
+	width: 90%;
+	margin: auto;
+	}
+}
+
+	
+  
+
